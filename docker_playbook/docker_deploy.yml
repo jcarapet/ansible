@@ -1,0 +1,4 @@
+- hosts: webservers
+  user: root
+  roles:
+    - angstwad.docker_ubuntu

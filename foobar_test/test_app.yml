@@ -1,0 +1,7 @@
+---
+- hosts: all
+  user: root
+
+  tasks:
+  - name: install ntp on the target system
+    apt: update_cache=yes
